@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-
-echo "------------------------------"
 echo "Installing Atom packages"
 
 apm install atom-beautify

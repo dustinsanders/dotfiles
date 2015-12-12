@@ -1,25 +1,20 @@
 #!/usr/bin/env bash
 
 # Ask for the administrator password upfront
+current_dir=$(pwd)
+echo $current_dir
+
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until `osxprep.sh` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+#bash profile
+echo "setting up aliases"
+cp bash_profile ~/.bash_profile
 
-# Step 1: Update the OS and Install Xcode Tools
-echo "------------------------------"
-echo "Updating OSX.  If this requires a restart, run the script again."
-# Install all available updates
-sudo softwareupdate -iva
-# Install only recommended available updates
-#sudo softwareupdate -irv
+#Brew
+bash brew/install.sh
 
-echo "------------------------------"
-echo "Installing Xcode Command Line Tools."
-# Install Xcode command line tools
-xcode-select --install
+#Node
+bash node/install.sh
 
-
-#NVM
-echo "installing nvm"
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+#Atom
+bash node/install.sh

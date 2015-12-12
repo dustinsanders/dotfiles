@@ -9,6 +9,3 @@ alias showHidden='defaults write com.apple.finder AppleShowAllFiles TRUE && kill
 alias addToDock="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
 alias sudop='sudo $(history -p \!\!)'
 alias killnode='sudo killall node'
-
-export NVM_DIR="/Users/dsand/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
