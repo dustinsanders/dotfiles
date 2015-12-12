@@ -9,3 +9,6 @@ alias showHidden='defaults write com.apple.finder AppleShowAllFiles TRUE && kill
 alias addToDock="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
 alias sudop='sudo $(history -p \!\!)'
 alias killnode='sudo killall node'
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced

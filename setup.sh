@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
+current_dir=$(pwd)
 
 # Ask for the administrator password upfront
-current_dir=$(pwd)
-echo $current_dir
-
 sudo -v
 
-#bash profile
-echo "setting up aliases"
-cp bash_profile ~/.bash_profile
+#Mac
+bash mac/install.sh
 
 #Brew
 bash brew/install.sh
