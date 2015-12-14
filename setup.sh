@@ -14,4 +14,4 @@ bash brew/install.sh
 bash node/install.sh
 
 #Atom
-bash node/install.sh
+bash atom/install.sh
