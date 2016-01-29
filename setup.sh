@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 current_dir=$(pwd)
+mkdir ~?environment
+cd ~/environment
+
 
 # Ask for the administrator password upfront
 sudo -v

@@ -11,7 +11,7 @@ brew cask install sourcetree
 brew cask install cakebrew
 brew cask install caffeine
 brew cask install google-chrome
-brew cask install visual-studio-code
+# brew cask install visual-studio-code
 brew cask install firefox
 brew cask install appcleaner
 brew cask install bettertouchtool
