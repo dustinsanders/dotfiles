@@ -1,6 +1,5 @@
 # Dot files
 
-- Create ~/.dotfiles directory
-- Symlink from directory
+- Symlink from pwd directory
 - eslint
 - node set global Permissions

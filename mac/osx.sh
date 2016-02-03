@@ -74,6 +74,14 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 
+
+###############################################################################
+# Screen                                                                      #
+###############################################################################
+
+# Removes last login message from terminal
+touch ~/.hushlogin
+
 ###############################################################################
 # Finder                                                                      #
 ###############################################################################
