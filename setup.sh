@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 current_dir=$(pwd)
+mkdir ~?environment
+cd ~/environment
+
 
 # Ask for the administrator password upfront
 sudo -v
@@ -14,4 +17,4 @@ bash brew/install.sh
 bash node/install.sh
 
 #Atom
-bash node/install.sh
+bash atom/install.sh

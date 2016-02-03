@@ -12,3 +12,4 @@ alias killnode='sudo killall node'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
