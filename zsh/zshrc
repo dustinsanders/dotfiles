@@ -20,9 +20,11 @@ fi
 export VISUAL=nano
 export EDITOR="$VISUAL"
 
-# cd
-alias cdc="cd ~ && clear"
+# NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
+# Aliases
 alias projects='cd ~/projects'
 alias desktop='cd ~/desktop'
 alias dot='cd ~/projects/dotfiles'

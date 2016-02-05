@@ -15,21 +15,18 @@ while true; do
 done &> /dev/null &
 
 echo "Installing dotfiles"
+echo "Running OSX installation"
 
-if [ "$(uname)" == "Darwin" ]; then
-  echo "Running OSX installation"
+echo "Brewing it up"
+source brew/install.sh
 
-  echo "Brewing it up"
-  source brew/install.sh
+echo "Setting defaults on OSX"
+source mac/install.sh
 
-  echo "Setting defaults on OSX"
-  source mac/install.sh
+echo 'installing zsh'
+source zsh/install.sh
 
-  echo 'installing zsh'
-  source zsh/install.sh
-
-  echo "Installing Node via nvm"
-  source node/install.sh
-fi
+echo "Installing Node via nvm"
+source node/install.sh
 
 echo "Completed"

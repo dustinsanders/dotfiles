@@ -19,9 +19,6 @@ brew cask install aerial
 
 brew install docker
 brew install nvm
-source $(brew --prefix nvm)/nvm.sh
-nvm install 4
-nvm alias default 4
 brew install nginx
 brew install watchman
 brew install duck
