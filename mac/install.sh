@@ -187,6 +187,12 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 # Don’t automatically rearrange Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 
+# Remove the auto-hiding Dock delay
+defaults write com.apple.dock autohide-delay -float 0
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
 # Hot corners
 # Possible values:
 #  0: no-op
