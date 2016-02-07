@@ -28,10 +28,12 @@ source $(brew --prefix nvm)/nvm.sh
 alias projects='cd ~/projects'
 alias desktop='cd ~/desktop'
 alias dot='cd ~/projects/dotfiles'
-alias editBash='nano ~/.bash_profile'
-alias editApache='nano /etc/apache2/extra/httpd-vhosts.conf'
-alias hideHidden='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
-alias showHidden='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
-alias addToDock="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
+alias editapache='e /etc/apache2/extra/httpd-vhosts.conf'
+alias hidehidden='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
+alias showhidden='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
+alias addtodock="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
 alias sudop='sudo $(history -p \!\!)'
 alias killnode='sudo killall node'
+alias editzsh='e ~/Projects/dotfiles/zsh/zshrc'
+alias agrep='alias | grep $1'
+alias gta='git add -N .'
