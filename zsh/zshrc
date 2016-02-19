@@ -35,5 +35,6 @@ alias addtodock="defaults write com.apple.dock persistent-apps -array-add '{"til
 alias sudop='sudo $(history -p \!\!)'
 alias killnode='sudo killall node'
 alias editzsh='e ~/Projects/dotfiles/zsh/zshrc'
+alias editlocal='e ~~/.localrc'
 alias agrep='alias | grep $1'
 alias gta='git add -N .'
