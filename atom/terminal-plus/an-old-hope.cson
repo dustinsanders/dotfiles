@@ -1,0 +1,81 @@
+  "terminal-plus":
+    ansiColors:
+      normal:
+        blue:
+          red: 97
+          green: 189
+          blue: 219
+          alpha: 1
+        cyan:
+          red: 97
+          green: 189
+          blue: 219
+          alpha: 1
+        green:
+          red: 136
+          green: 194
+          blue: 116
+          alpha: 1
+        magenta:
+          red: 238
+          green: 135
+          blue: 63
+          alpha: 1
+        red:
+          red: 233
+          green: 75
+          blue: 97
+          alpha: 1
+        white:
+          red: 214
+          green: 214
+          blue: 214
+          alpha: 1
+        yellow:
+          red: 233
+          green: 211
+          blue: 106
+          alpha: 1
+      zBright:
+        brightBlue:
+          red: 97
+          green: 189
+          blue: 219
+          alpha: 1
+        brightCyan:
+          red: 97
+          green: 189
+          blue: 219
+          alpha: 1
+        brightGreen:
+          red: 136
+          green: 194
+          blue: 116
+          alpha: 1
+        brightMagenta:
+          red: 238
+          green: 135
+          blue: 63
+          alpha: 1
+        brightRed:
+          red: 233
+          green: 75
+          blue: 97
+          alpha: 1
+        brightWhite:
+          red: 214
+          green: 214
+          blue: 214
+          alpha: 1
+        brightYellow:
+          red: 233
+          green: 211
+          blue: 106
+          alpha: 1
+    core: {}
+    style:
+      animationSpeed: 0
+      fontSize: "11"
+      theme: "ocean"
+    toggles:
+      cursorBlink: false

@@ -1,0 +1,68 @@
+    ansiColors:
+      normal:
+        blue:
+          red: 120
+          green: 170
+          blue: 214
+          alpha: 1
+        cyan:
+          red: 118
+          green: 212
+          blue: 214
+          alpha: 1
+        green:
+          red: 168
+          green: 212
+          blue: 169
+          alpha: 1
+        magenta:
+          red: 215
+          green: 172
+          blue: 214
+          alpha: 1
+        red:
+          red: 249
+          green: 140
+          blue: 138
+          alpha: 1
+        white:
+          red: 214
+          green: 214
+          blue: 214
+          alpha: 1
+        yellow:
+          red: 255
+          green: 212
+          blue: 121
+          alpha: 1
+      zBright:
+        brightBlue:
+          red: 120
+          green: 170
+          blue: 214
+          alpha: 1
+        brightCyan:
+          red: 118
+          green: 212
+          blue: 214
+          alpha: 1
+        brightGreen:
+          red: 168
+          green: 212
+          blue: 169
+          alpha: 1
+        brightMagenta:
+          red: 215
+          green: 172
+          blue: 214
+          alpha: 1
+        brightRed:
+          red: 249
+          green: 140
+          blue: 138
+          alpha: 1
+        brightYellow:
+          red: 255
+          green: 212
+          blue: 121
+          alpha: 1
