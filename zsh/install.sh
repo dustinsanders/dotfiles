@@ -12,8 +12,8 @@ for rcfile in ~/.zprezto/runcoms/z{l,she,pro}*; do
 done
 
 echo 'Creating zsh & prezto symlinks'
-ln -s ~/projects/dotfiles/zsh/zshrc ~/.zshrc
-ln -s ~/projects/dotfiles/zsh/zpreztorc ~/.zpreztorc
+ln -s ~/Projects/dotfiles/zsh/zshrc ~/.zshrc
+ln -s ~/Projects/dotfiles/zsh/zpreztorc ~/.zpreztorc
 
 echo "Configuring zsh as default shell"
 chsh -s $(which zsh)
