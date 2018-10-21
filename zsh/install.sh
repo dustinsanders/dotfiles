@@ -5,7 +5,7 @@
 brew install zsh zsh-completions
 
 echo 'installing prezto'
-git clone --recursive https://github.com/wyze/prezto.git ~/.zprezto
+git clone --recursive https://github.com/sorin-ionescu/prezto ~/.zprezto
 
 for rcfile in ~/.zprezto/runcoms/z{l,she,pro}*; do
   ln -s $rcfile ~/.$(basename $rcfile)
