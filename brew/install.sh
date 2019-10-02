@@ -11,5 +11,6 @@ brew cask install firefox
 brew cask install brave
 brew cask install slack
 brew cask install visual-studio-code
+brew cask install docker 
 
 brew install node
