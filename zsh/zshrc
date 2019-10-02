@@ -28,7 +28,6 @@ export NVM_DIR="$HOME/.nvm"
 alias projects='cd ~/projects'
 alias desktop='cd ~/desktop'
 alias dot='cd ~/projects/dotfiles'
-alias editapache='e /etc/apache2/extra/httpd-vhosts.conf'
 alias hidehidden='defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder'
 alias showhidden='defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder'
 alias addtodock="defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock;"
