@@ -177,17 +177,17 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AmAAAAAAAAEBCAAoADXxAQRmlyYUNvZGUtUmVndWxhctITFBUWWiRjbGFzc25h
-	bWVYJGNsYXNzZXNWTlNGb250ohUXWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0Rob
-	VHJvb3SAAQgRGiMtMjc8QktSW2JpcnR2eIuQm6SrrrfJzNEAAAAAAAABAQAAAAAAAAAc
-	AAAAAAAAAAAAAAAAAAAA0w==
+	YXNzI0AsAAAAAAAAEBCAAoADXxAUQ2FzY2FkaWFDb2RlLVJlZ3VsYXLSExQVFlokY2xh
+	c3NuYW1lWCRjbGFzc2VzVk5TRm9udKIVF1hOU09iamVjdF8QD05TS2V5ZWRBcmNoaXZl
+	ctEaG1Ryb290gAEIERojLTI3PEJLUltiaXJ0dniPlJ+or7K7zdDVAAAAAAAAAQEAAAAA
+	AAAAHAAAAAAAAAAAAAAAAAAAANc=
 	</data>
 	<key>FontAntialias</key>
 	<true/>
 	<key>FontHeightSpacing</key>
 	<real>1.25</real>
 	<key>ProfileCurrentVersion</key>
-	<real>2.0499999999999998</real>
+	<real>2.0600000000000001</real>
 	<key>SelectionColor</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGFRZYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
@@ -284,7 +284,7 @@
 	ZmZmg1MTpj6DeHnQPoPQg+A+AYY=
 	</data>
 	<key>columnCount</key>
-	<integer>160</integer>
+	<integer>100</integer>
 	<key>cyanColour</key>
 	<data>
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
@@ -308,7 +308,7 @@
 	ZmZmg6i7UT+DUATePYMl2hA+AYY=
 	</data>
 	<key>rowCount</key>
-	<integer>40</integer>
+	<integer>20</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>useOptionAsMetaKey</key>
