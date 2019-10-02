@@ -8,7 +8,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install caffeine
 brew cask install firefox
-brew cask install google-chrome
+brew cask install brave
 brew cask install slack
 brew cask install visual-studio-code
 
